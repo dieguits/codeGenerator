@@ -40,7 +40,8 @@ namespace Generator
         {
             //Provider=MySql.Data.MySqlClient;Server=localhost;Database=inventory; Uid=root;Pwd=;
             //Provider = SQLOLEDB; Data Source = devlgc.database.windows.net; User ID = adminuser; Password = C3st4r.01; Initial Catalog = LetsGoCanada
-            this.txtConeccion.Text = "Server=localhost;Database=inventory; Uid=root;Pwd=";
+            //this.txtConeccion.Text = "Server=localhost;Database=inventory; Uid=root;Pwd=";
+            this.txtConeccion.Text = "Provider = SQLOLEDB; Data Source = testingdev.database.windows.net; User ID = wcaserver; Password = G3n35&51:1; Initial Catalog = wca";
         }
 
         private void btnConnect_Click(object sender, EventArgs e)
