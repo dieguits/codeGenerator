@@ -63,7 +63,6 @@
             this.gridTables.TabIndex = 0;
             this.gridTables.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridTables_CellClick);
             this.gridTables.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridTables_CellContentClick);
-            this.gridTables.SelectionChanged += new System.EventHandler(this.gridTables_SelectionChanged);
             // 
             // btnGenerator
             // 
